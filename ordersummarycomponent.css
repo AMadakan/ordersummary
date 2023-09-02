@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    /* border-radius: 50px; */
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(Fonts/kingsmen/Kingsmen_D.otf);
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(Fonts/bivoac-reguler/Bivoac\ Reguler\ Demo.otf\ Demo.otf);
+}
+
+@media screen and (max-width: 800px) {
+    .body {
+        display: flex;
+        /* flex-direction: column; */
+    }
+}
+
+body {
+    display: flex;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    padding: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0;
+    width: 350px;
+    height: 550px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.card-top {
+    height: 300px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.card-bottom {
+    font-family: myfont2;
+    align-items: center;
+    /* font-size: x-small; */
+}
+
+.middle {
+    line-height: 80px;
+    background-color: rgb(200, 215, 227);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 300px;
+    height: 80px;
+}
+
+.subscription {
+    float: left;
+    margin-left: 10px;
+    line-height: 1.5;
+    vertical-align: middle;
+    /* padding-left: 5px; */
+}
